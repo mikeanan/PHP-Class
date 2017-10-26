@@ -8,7 +8,7 @@
 
 class Animal
 {
-    private $animalType;
+    private $animalType = "default animal Type";//若沒有呼叫父類別的建構子, 會印出這個
     protected $position;
 
     public function __construct($animalTypeFromOut) {
@@ -24,3 +24,5 @@ class Animal
         echo "得到食物: $foodName<br>";
     }
 }
+
+//$animal = new Animal("test");
