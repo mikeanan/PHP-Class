@@ -1,4 +1,5 @@
 <?php
+namespace MikePHPOOP\AllClass;
 
 include_once "Animal.php";
 

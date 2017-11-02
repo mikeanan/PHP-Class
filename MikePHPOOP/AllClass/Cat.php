@@ -1,4 +1,5 @@
 <?php
+namespace MikePHPOOP\AllClass;
 
 include_once "Animal.php";
 
@@ -24,6 +25,14 @@ class Cat extends Animal
         self::$staticProperty = "從靜態方法改變靜態屬性(".$test.")";
     }
 }
+
+function test()
+{
+    echo "function test";
+}
+
+const TEST = "const test<br>";
+
 
 //測試
 //$cat = new Cat("Kitty");

@@ -1,4 +1,5 @@
 <?php
+namespace MikePHPOOP\AllClass;
 
 //1. 定義 Animal 類別
 //2. 屬性 position 可被繼承
