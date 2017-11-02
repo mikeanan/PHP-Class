@@ -37,6 +37,21 @@ class Animal
     private function digest() {
         echo "消化".$this->foodName."<br>";
     }
+
+    public function moveDxDy( $dx, $dy ) {
+        $this->position["x"] = $this->position["x"] + $dx;
+        $this->position["y"] = $this->position["y"] + $dy;
+        $this->position();
+
+        return $this->position;
+    }
+
+    public function position()
+    {
+        $x = $this->position["x"];
+        $y = $this->position["y"];
+        echo "($x,$y)<br>";
+    }
 }
 
 //$animal = new Animal("test");
