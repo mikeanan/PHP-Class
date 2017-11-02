@@ -1,0 +1,14 @@
+{
+    "name": "mikephp/composer-project",
+    "description": "Use Composer to Build Our Project.",
+    "type": "project",
+    "license": "Free",
+    "authors": [
+        {
+            "name": "mike",
+            "email": "chennanbang@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
