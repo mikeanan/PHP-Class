@@ -1,3 +1,9 @@
+-安裝 fzaninotto/faker 套件, 建立測試用的資料, 一樣在專案目錄底
+> composer require --dev fzaninotto/faker
+*--dev 表示安裝為開發環境時使用
+
+
+
 -安裝 doctrine/dbal 套件, 才能修改資料表的欄位, 一樣在專案目錄底
 > composer require doctrine/dbal
 
