@@ -1,3 +1,6 @@
+-安裝 database 套件, 一樣在專案目錄底
+> composer require illuminate/database
+
 
 
 -安裝 date time 套件, 要先切到專案目錄底下
