@@ -20,11 +20,11 @@ $capsule->setAsGlobal();
 
 $students = Capsule::table('students')->get();
 
-var_dump($students);
+//var_dump($students);
 
 $students = Capsule::select("SELECT * FROM students");//直接使用 sql 語法, 得到跟上面一樣的結果
 
-var_dump($students);
+//var_dump($students);
 
 //不要用以下的方式,以免使用者輸入的 sql 語法造成 安全性的問題
 //$userInput = $_GET["sql"];
