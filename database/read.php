@@ -18,11 +18,12 @@ $capsule->addConnection([
 
 $capsule->setAsGlobal();
 
-$students = Capsule::table('students')->get();
+//$students = Capsule::table('students')->get();//之前手動建立測試用的資料表, 之後不用了
 
 //var_dump($students);
 
-$students = Capsule::select("SELECT * FROM students");//直接使用 sql 語法, 得到跟上面一樣的結果
+//之前手動建立測試用的資料表, 之後不用了
+//$students = Capsule::select("SELECT * FROM students");//直接使用 sql 語法, 得到跟上面一樣的結果
 
 //var_dump($students);
 
